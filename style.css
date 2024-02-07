@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 300px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  background-color: #ffe4c4;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.card {
+  margin: 5px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.active {
+  opacity: 0.2;
+  text-decoration: line-through;
+}
