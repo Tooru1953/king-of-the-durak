@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 300px;
+  max-width: 15em;
   text-transform: uppercase;
   margin: 0 auto;
   background-color: #ffe4c4;
@@ -27,8 +27,8 @@ body {
 .card {
   margin: 5px;
   border-radius: 5px;
-  width: 30px;
-  height: 30px;
+  width: 2em;
+  height: 2em;
   display: flex;
   align-items: center;
   padding-top: 5px;
