@@ -5,5 +5,5 @@ cardEl.forEach(function (element) {
 });
 
 function addClass() {
-  this.classList.add("active");
+  this.classList.toggle("active");
 }
